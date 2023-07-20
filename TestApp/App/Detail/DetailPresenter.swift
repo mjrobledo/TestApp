@@ -19,14 +19,16 @@ protocol DetailViewProtocol : AnyObject {
 }
 
 protocol DetailPresenterProtocol {
-
+    var item : AppModel { get }
 }
 
 
 class DetailPresenter: DetailPresenterProtocol {
-    var delegate: DetailViewProtocol?
+    //var delegate: DetailViewProtocol?
+    var item: AppModel
     
-    init(delegate: DetailViewProtocol) {
-        self.delegate = delegate
+    init(data: AppModel) {
+        self.item = data
+        print(item.name ?? "")
     }
 }

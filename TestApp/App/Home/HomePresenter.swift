@@ -13,6 +13,8 @@
 import Foundation
 
 class HomePresenter : HomePreseterProtocol {
+    private lazy var manager: ApiManager = ApiManager()
+    var items: [AppModel] = []
     
     private weak var delegate: HomeViewProtocol?
     
@@ -21,7 +23,13 @@ class HomePresenter : HomePreseterProtocol {
     }
     
     func getListApps() {
-        
+        manager.getListApps { listApps in
+            if listApps.isEmpty {
+                return
+            }
+            self.items = listApps
+            self.delegate?.reloadApps()
+        }
     }
 }
 
@@ -29,9 +37,11 @@ class HomePresenter : HomePreseterProtocol {
 // MARK: - Protocolos
 protocol HomeViewProtocol : AnyObject {
     func showError(_ message: String)
+    func reloadApps()
 }
 
 protocol HomePreseterProtocol {
     func getListApps()
+    var items: [AppModel] { get set }
 }
 

@@ -23,20 +23,16 @@ extension UIViewController {
         
     }
     
-    
-    class func createDetailView(delegate: DetailViewProtocol) -> UIViewController {
+    class func createDetailView(data: AppModel) -> UIViewController {
         let bundle = Bundle(for: DetailView.self)
         
         let view = DetailView(nibName: "DetailView", bundle: bundle)
-        view.presenter = DetailPresenter(delegate: delegate)
+        view.presenter = DetailPresenter(data: data)
         return view
-        
     }
     
     enum BackView {
         case centauroAdminView
         case corporatePlanView
     }
-    
-    
 }

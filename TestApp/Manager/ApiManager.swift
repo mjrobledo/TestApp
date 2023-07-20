@@ -11,3 +11,29 @@
 
 
 import Foundation
+
+class ApiManager {
+    func getListApps(completion: @escaping ( ([AppModel]) -> Void)) {
+            let data = LocalManager.loadDataFromJSON()
+            completion(data)
+    }
+}
+
+class LocalManager {
+   static func loadDataFromJSON() -> [AppModel] {
+        do {
+            if let archivoURL = Bundle.main.url(forResource: "Data", withExtension: "json") {
+                let datos = try Data(contentsOf: archivoURL)
+                let decoder = JSONDecoder()
+                let aplicacionesData = try decoder.decode(AppsList.self, from: datos)
+                return aplicacionesData.apps
+            } else {
+                print("El archivo JSON no fue encontrado.")
+                return []
+            }
+        } catch {
+            print("Error al cargar y decodificar el JSON: \(error)")
+            return []
+        }
+    }
+}

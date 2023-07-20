@@ -1,0 +1,423 @@
+{"apps":[
+    {
+        "id": 1,
+        "name": "Aplicación 1",
+        "description": "Esta es la aplicación 1",
+        "rating": 4,
+        "price": 0.0,
+        "developer": "developer 1",
+        "category": 3,
+        "comments": [
+            {
+                "name": "Usuario1",
+                "avatar": "imagen1.jpg",
+                "comment": "Me encanta esta app!"
+            },
+            {
+                "name": "Usuario2",
+                "avatar": "imagen2.jpg",
+                "comment": "Excelente aplicación, la recomiendo."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Aplicación 2",
+        "description": "Esta es la aplicación 2",
+        "rating": 3,
+        "price": 1.99,
+        "developer": "developer 2",
+        "category": 4,
+        "comments": [
+            {
+                "name": "Usuario3",
+                "avatar": "imagen3.jpg",
+                "comment": "Buena app, pero necesita mejoras."
+            },
+            {
+                "name": "Usuario4",
+                "avatar": "imagen4.jpg",
+                "comment": "No está mal, pero hay apps mejores."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Aplicación 3",
+        "description": "Esta es la aplicación 3",
+        "rating": 5,
+        "price": 2.49,
+        "developer": "developer 3",
+        "category": 5,
+        "comments": [
+            {
+                "name": "Usuario5",
+                "avatar": "imagen5.jpg",
+                "comment": "Increíble app, no puedo dejar de usarla."
+            },
+            {
+                "name": "Usuario6",
+                "avatar": "imagen6.jpg",
+                "comment": "La mejor app que he probado."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Aplicación 4",
+        "description": "Esta es la aplicación 4",
+        "rating": 2,
+        "price": 0.40,
+        "developer": "developer 4",
+        "category": 2,
+        "comments": [
+            {
+                "name": "Usuario7",
+                "avatar": "imagen7.jpg",
+                "comment": "No me gustó, tiene muchos errores."
+            },
+            {
+                "name": "Usuario8",
+                "avatar": "imagen8.jpg",
+                "comment": "No vale la pena, mejor buscar otra."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Aplicación 5",
+        "description": "Esta es la aplicación 5",
+        "rating": 4,
+        "price": 1.99,
+        "developer": "developer 5",
+        "category": 4,
+        "comments": [
+            {
+                "name": "Usuario9",
+                "avatar": "imagen9.jpg",
+                "comment": "Muy buena app, la uso todos los días."
+            },
+            {
+                "name": "Usuario10",
+                "avatar": "imagen10.jpg",
+                "comment": "Me gusta, pero podría mejorar la interfaz."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Aplicación 6",
+        "description": "Esta es la aplicación 6",
+        "rating": 3,
+        "price": 0.99,
+        "developer": "developer 6",
+        "category": 3,
+        "comments": [
+            {
+                "name": "Usuario11",
+                "avatar": "imagen11.jpg",
+                "comment": "Es una app promedio, nada especial."
+            },
+            {
+                "name": "Usuario12",
+                "avatar": "imagen12.jpg",
+                "comment": "No me gusta la última actualización."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Aplicación 7",
+        "description": "Esta es la aplicación 7",
+        "rating": 5,
+        "price": 4.99,
+        "developer": "developer 7",
+        "category": 5,
+        "comments": [
+            {
+                "name": "Usuario13",
+                "avatar": "imagen13.jpg",
+                "comment": "¡La mejor app que he descargado!"
+            },
+            {
+                "name": "Usuario14",
+                "avatar": "imagen14.jpg",
+                "comment": "Vale cada centavo, ¡recomendada!"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Aplicación 8",
+        "description": "Esta es la aplicación 8",
+        "rating": 2,
+        "price": 0.99,
+        "developer": "developer 8",
+        "category": 2,
+        "comments": [
+            {
+                "name": "Usuario15",
+                "avatar": "imagen15.jpg",
+                "comment": "No me gusta, tiene muchos anuncios."
+            },
+            {
+                "name": "Usuario16",
+                "avatar": "imagen16.jpg",
+                "comment": "Buen concepto, pero la ejecución es mala."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Aplicación 9",
+        "description": "Esta es la aplicación 9",
+        "rating": 4,
+        "price": 1.99,
+        "developer": "developer 9",
+        "category": 4,
+        "comments": [
+            {
+                "name": "Usuario17",
+                "avatar": "imagen17.jpg",
+                "comment": "Me gusta, pero falta más contenido."
+            },
+            {
+                "name": "Usuario18",
+                "avatar": "imagen18.jpg",
+                "comment": "Buen diseño, fácil de usar."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Aplicación 10",
+        "description": "Esta es la aplicación 10",
+        "rating": 5,
+        "price": 2.99,
+        "developer": "developer 10",
+        "category": 5,
+        "comments": [
+            {
+                "name": "Usuario19",
+                "avatar": "imagen19.jpg",
+                "comment": "¡Increíble app, no puedo dejar de usarla!"
+            },
+            {
+                "name": "Usuario20",
+                "avatar": "imagen20.jpg",
+                "comment": "La recomiendo a todos mis amigos."
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Aplicación 11",
+        "description": "Esta es la aplicación 11",
+        "rating": 4,
+        "price": 1.50,
+        "developer": "developer 11",
+        "category": 3,
+        "comments": [
+            {
+                "name": "Usuario21",
+                "avatar": "imagen21.jpg",
+                "comment": "Buena app para tareas diarias."
+            },
+            {
+                "name": "Usuario22",
+                "avatar": "imagen22.jpg",
+                "comment": "Interfaz sencilla y fácil de usar."
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Aplicación 12",
+        "description": "Esta es la aplicación 12",
+        "rating": 3,
+        "price": 0.99,
+        "developer": "developer 12",
+        "category": 2,
+        "comments": [
+            {
+                "name": "Usuario23",
+                "avatar": "imagen23.jpg",
+                "comment": "No está mal, pero hay mejores opciones."
+            },
+            {
+                "name": "Usuario24",
+                "avatar": "imagen24.jpg",
+                "comment": "Mejoraría con más funciones."
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Aplicación 13",
+        "description": "Esta es la aplicación 13",
+        "rating": 5,
+        "price": 3.99,
+        "developer": "developer 13",
+        "category": 4,
+        "comments": [
+            {
+                "name": "Usuario25",
+                "avatar": "imagen25.jpg",
+                "comment": "Impresionante app, no tiene competencia."
+            },
+            {
+                "name": "Usuario26",
+                "avatar": "imagen26.jpg",
+                "comment": "No puedo creer que sea gratis, ¡genial!"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Aplicación 14",
+        "description": "Esta es la aplicación 14",
+        "rating": 2,
+        "price": 0.40,
+        "developer": "developer 14",
+        "category": 1,
+        "comments": [
+            {
+                "name": "Usuario27",
+                "avatar": "imagen27.jpg",
+                "comment": "No recomendada, lenta y llena de anuncios."
+            },
+            {
+                "name": "Usuario28",
+                "avatar": "imagen28.jpg",
+                "comment": "No vale la pena, mejor buscar otra."
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Aplicación 15",
+        "description": "Esta es la aplicación 15",
+        "rating": 4,
+        "price": 1.99,
+        "developer": "developer 15",
+        "category": 3,
+        "comments": [
+            {
+                "name": "Usuario29",
+                "avatar": "imagen29.jpg",
+                "comment": "Buena app, pero necesita mejoras."
+            },
+            {
+                "name": "Usuario30",
+                "avatar": "imagen30.jpg",
+                "comment": "La interfaz es confusa, no me gusta."
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Aplicación 16",
+        "description": "Esta es la aplicación 16",
+        "rating": 5,
+        "price": 0.0,
+        "developer": "developer 16",
+        "category": 4,
+        "comments": [
+            {
+                "name": "Usuario31",
+                "avatar": "imagen31.jpg",
+                "comment": "Simplemente perfecta, no cambiaría nada."
+            },
+            {
+                "name": "Usuario32",
+                "avatar": "imagen32.jpg",
+                "comment": "Mis amigos y yo la adoramos."
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Aplicación 17",
+        "description": "Esta es la aplicación 17",
+        "rating": 2,
+        "price": 0.99,
+        "developer": "developer 17",
+        "category": 1,
+        "comments": [
+            {
+                "name": "Usuario33",
+                "avatar": "imagen33.jpg",
+                "comment": "No me gusta, tiene muchos errores."
+            },
+            {
+                "name": "Usuario34",
+                "avatar": "imagen34.jpg",
+                "comment": "La publicidad es excesiva y molesta."
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Aplicación 18",
+        "description": "Esta es la aplicación 18",
+        "rating": 4,
+        "price": 1.99,
+        "developer": "developer 18",
+        "category": 3,
+        "comments": [
+            {
+                "name": "Usuario35",
+                "avatar": "imagen35.jpg",
+                "comment": "Muy útil en mi trabajo, la recomiendo."
+            },
+            {
+                "name": "Usuario36",
+                "avatar": "imagen36.jpg",
+                "comment": "Buena, pero necesita más opciones de personalización."
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Aplicación 19",
+        "description": "Esta es la aplicación 19",
+        "rating": 3,
+        "price": 0.99,
+        "developer": "developer 19",
+        "category": 2,
+        "comments": [
+            {
+                "name": "Usuario37",
+                "avatar": "imagen37.jpg",
+                "comment": "Suficiente, pero no me impresiona."
+            },
+            {
+                "name": "Usuario38",
+                "avatar": "imagen38.jpg",
+                "comment": "Hay apps similares mejores."
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Aplicación 20",
+        "description": "Esta es la aplicación 20",
+        "rating": 5,
+        "price": 2.99,
+        "developer": "developer 20",
+        "category": 5,
+        "comments": [
+            {
+                "name": "Usuario39",
+                "avatar": "imagen39.jpg",
+                "comment": "¡Increíble app, no puedo dejar de usarla!"
+            },
+            {
+                "name": "Usuario40",
+                "avatar": "imagen40.jpg",
+                "comment": "La mejor app de su categoría, sin duda."
+            }
+        ]
+    }
+]
+}
