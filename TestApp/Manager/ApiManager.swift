@@ -19,6 +19,7 @@ class ApiManager {
     }
 }
 
+
 class LocalManager {
    static func loadDataFromJSON() -> [AppModel] {
         do {

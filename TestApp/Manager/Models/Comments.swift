@@ -16,6 +16,4 @@ struct Comments : Codable {
     let name : String?
     let avatar : String?
     let comment : String?
-
-
 }

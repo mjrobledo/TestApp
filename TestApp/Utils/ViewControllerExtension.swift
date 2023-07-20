@@ -31,11 +31,6 @@ extension UIViewController {
         return view
     }
     
-    enum BackView {
-        case centauroAdminView
-        case corporatePlanView
-    }
-    
     func infoAlert(title: String, message: String, titleButton: String? = "Continuar") {
         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: titleButton, style: UIAlertAction.Style.default, handler: nil))
