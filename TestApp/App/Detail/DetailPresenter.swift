@@ -15,6 +15,7 @@ import Foundation
 
 protocol DetailViewProtocol : AnyObject {
     func showError(_ message: String)
+    func loadInfoView()
   
 }
 
@@ -26,9 +27,13 @@ protocol DetailPresenterProtocol {
 class DetailPresenter: DetailPresenterProtocol {
     //var delegate: DetailViewProtocol?
     var item: AppModel
+    private var delegate: DetailViewProtocol?
     
-    init(data: AppModel) {
+    init(data: AppModel, delegate: DetailViewProtocol) {
         self.item = data
-        print(item.name ?? "")
+        self.delegate = delegate
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2, execute: {
+            self.delegate?.loadInfoView()
+        })        
     }
 }

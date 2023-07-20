@@ -14,8 +14,8 @@
             filePath = "TestApp/App/Home/HomeView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
             landmarkName = "collectionView(_:layout:sizeForItemAt:)"
             landmarkType = "7">
             <Locations>
@@ -47,6 +47,21 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "91"
                   endingLineNumber = "91"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "5A71E5A0-1EF5-4058-87D8-0175EC54F692 - 9a618fa04631564f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestApp.HomeView.collectionView(_: __C.UICollectionView, layout: __C.UICollectionViewLayout, sizeForItemAt: Foundation.IndexPath) -&gt; __C.CGSize"
+                  moduleName = "TestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robledo/Documents/GitHub/Pruebas/TestApp/TestApp/App/Home/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
                   offsetFromSymbolStart = "180">
                </Location>
             </Locations>
@@ -97,6 +112,21 @@
                   endingLineNumber = "27"
                   offsetFromSymbolStart = "40">
                </Location>
+               <Location
+                  uuid = "85F81193-864A-438D-BA71-395116B86B6F - b64683e8b1763b46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;TestApp.AppModel&gt;) -&gt; () in TestApp.HomePresenter.getListApps() -&gt; ()"
+                  moduleName = "TestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robledo/Documents/GitHub/Pruebas/TestApp/TestApp/App/Home/HomePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "44">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -142,8 +172,8 @@
             filePath = "TestApp/App/Home/HomeView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "reloadApps()"
             landmarkType = "7">
          </BreakpointContent>
@@ -158,9 +188,25 @@
             filePath = "TestApp/App/Home/HomeView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3479864-F21D-4D50-A5FC-268168EA3C21"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestApp/App/Detail/DetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "loadInfoView()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

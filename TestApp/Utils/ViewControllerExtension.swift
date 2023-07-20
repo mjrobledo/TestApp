@@ -27,12 +27,20 @@ extension UIViewController {
         let bundle = Bundle(for: DetailView.self)
         
         let view = DetailView(nibName: "DetailView", bundle: bundle)
-        view.presenter = DetailPresenter(data: data)
+        view.presenter = DetailPresenter(data: data, delegate: view)
         return view
     }
     
     enum BackView {
         case centauroAdminView
         case corporatePlanView
+    }
+    
+    func infoAlert(title: String, message: String, titleButton: String? = "Continuar") {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: titleButton, style: UIAlertAction.Style.default, handler: nil))
+        DispatchQueue.main.async {
+            self.present(alert, animated: true, completion: nil)
+        }
     }
 }

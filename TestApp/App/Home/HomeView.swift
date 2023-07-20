@@ -30,8 +30,6 @@ class HomeView: UIViewController {
         self.title = "Amazon Store"
         self.addFilterButton()
         self.configureCollectionView()
-        
-        
     }
     
     private func configureCollectionView() {
@@ -39,8 +37,7 @@ class HomeView: UIViewController {
         collCategories.delegate = self
         collCategories.dataSource = self
     }
-    
-    /// Configura la vista, agrega un botón para descargar el PDF
+     
     private func addFilterButton() {
         let item = UIBarButtonItem(image:UIImage(systemName: "magnifyingglass"), style: .plain, target: self, action: #selector(filterView))
         item.tintColor = .systemBlue

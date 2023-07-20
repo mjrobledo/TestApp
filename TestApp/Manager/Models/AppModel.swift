@@ -11,7 +11,7 @@
 
 
 import Foundation
-
+ 
 struct AppsList : Codable {
     let apps: [AppModel]
 }
@@ -36,5 +36,12 @@ struct AppModel : Codable {
             return "FREE"
         }
         return "$\(price.description)"
+    }
+    
+    var imageHeader: String {
+        if let id = id {
+            return "\(id)_header"
+        }
+        return ""
     }
 }

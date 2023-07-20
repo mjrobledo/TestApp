@@ -28,6 +28,8 @@
 		946B987A2A69112500A10116 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946B98792A69112500A10116 /* Comments.swift */; };
 		946B987C2A69113500A10116 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946B987B2A69113500A10116 /* AppModel.swift */; };
 		946B987F2A6912BC00A10116 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 946B987E2A6912BC00A10116 /* Data.json */; };
+		946B98832A69C89D00A10116 /* CellComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946B98812A69C89D00A10116 /* CellComment.swift */; };
+		946B98842A69C89D00A10116 /* CellComment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946B98822A69C89D00A10116 /* CellComment.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		946B98792A69112500A10116 /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
 		946B987B2A69113500A10116 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		946B987E2A6912BC00A10116 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		946B98812A69C89D00A10116 /* CellComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellComment.swift; sourceTree = "<group>"; };
+		946B98822A69C89D00A10116 /* CellComment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellComment.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,7 @@
 		946B985B2A68EC4700A10116 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				946B98802A69C85900A10116 /* Cell */,
 				946B98662A68ECE000A10116 /* DetailView.xib */,
 				946B98652A68ECE000A10116 /* DetailView.swift */,
 				946B98692A68ECEC00A10116 /* DetailPresenter.swift */,
@@ -182,6 +187,15 @@
 				946B987E2A6912BC00A10116 /* Data.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		946B98802A69C85900A10116 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				946B98812A69C89D00A10116 /* CellComment.swift */,
+				946B98822A69C89D00A10116 /* CellComment.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +261,7 @@
 				946B984E2A68AAAD00A10116 /* LaunchScreen.storyboard in Resources */,
 				946B987F2A6912BC00A10116 /* Data.json in Resources */,
 				946B98622A68ECB200A10116 /* HomeView.xib in Resources */,
+				946B98842A69C89D00A10116 /* CellComment.xib in Resources */,
 				946B984B2A68AAAD00A10116 /* Assets.xcassets in Resources */,
 				946B98492A68AAAC00A10116 /* Main.storyboard in Resources */,
 				946B98682A68ECE000A10116 /* DetailView.xib in Resources */,
@@ -267,6 +282,7 @@
 				946B986A2A68ECEC00A10116 /* DetailPresenter.swift in Sources */,
 				946B98672A68ECE000A10116 /* DetailView.swift in Sources */,
 				946B98612A68ECB200A10116 /* HomeView.swift in Sources */,
+				946B98832A69C89D00A10116 /* CellComment.swift in Sources */,
 				946B987C2A69113500A10116 /* AppModel.swift in Sources */,
 				946B98642A68ECC100A10116 /* HomePresenter.swift in Sources */,
 				946B98442A68AAAC00A10116 /* SceneDelegate.swift in Sources */,
