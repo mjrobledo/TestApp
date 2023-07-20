@@ -7,6 +7,7 @@
         "price": 0.0,
         "developer": "developer 1",
         "category": 3,
+        "isInstall" : true,
         "comments": [
             {
                 "name": "Usuario1",
@@ -28,6 +29,7 @@
         "price": 1.99,
         "developer": "developer 2",
         "category": 4,
+        "isInstall" : false,
         "comments": [
             {
                 "name": "Usuario3",
@@ -49,6 +51,7 @@
         "price": 2.49,
         "developer": "developer 3",
         "category": 5,
+        "isInstall" : false,
         "comments": [
             {
                 "name": "Usuario5",
@@ -70,6 +73,7 @@
         "price": 0.40,
         "developer": "developer 4",
         "category": 2,
+        "isInstall" : true,
         "comments": [
             {
                 "name": "Usuario7",
@@ -91,6 +95,7 @@
         "price": 1.99,
         "developer": "developer 5",
         "category": 4,
+        "isInstall" : false,
         "comments": [
             {
                 "name": "Usuario9",
@@ -112,6 +117,7 @@
         "price": 0.99,
         "developer": "developer 6",
         "category": 3,
+        "isInstall" : true,
         "comments": [
             {
                 "name": "Usuario11",
@@ -133,6 +139,7 @@
         "price": 4.99,
         "developer": "developer 7",
         "category": 5,
+        "isInstall" : true,
         "comments": [
             {
                 "name": "Usuario13",
@@ -154,6 +161,7 @@
         "price": 0.99,
         "developer": "developer 8",
         "category": 2,
+        "isInstall" : false,
         "comments": [
             {
                 "name": "Usuario15",
@@ -175,6 +183,7 @@
         "price": 1.99,
         "developer": "developer 9",
         "category": 4,
+        "isInstall" : false,
         "comments": [
             {
                 "name": "Usuario17",
@@ -196,6 +205,7 @@
         "price": 2.99,
         "developer": "developer 10",
         "category": 5,
+        "isInstall" : false,
         "comments": [
             {
                 "name": "Usuario19",
@@ -217,6 +227,7 @@
         "price": 1.50,
         "developer": "developer 11",
         "category": 3,
+        "isInstall" : false,
         "comments": [
             {
                 "name": "Usuario21",
@@ -238,6 +249,7 @@
         "price": 0.99,
         "developer": "developer 12",
         "category": 2,
+        "isInstall" : false,
         "comments": [
             {
                 "name": "Usuario23",
@@ -259,6 +271,7 @@
         "price": 3.99,
         "developer": "developer 13",
         "category": 4,
+        "isInstall" : false,
         "comments": [
             {
                 "name": "Usuario25",
@@ -280,6 +293,7 @@
         "price": 0.40,
         "developer": "developer 14",
         "category": 1,
+        "isInstall" : false,
         "comments": [
             {
                 "name": "Usuario27",
@@ -301,6 +315,7 @@
         "price": 1.99,
         "developer": "developer 15",
         "category": 3,
+        "isInstall" : false,
         "comments": [
             {
                 "name": "Usuario29",
@@ -322,6 +337,7 @@
         "price": 0.0,
         "developer": "developer 16",
         "category": 4,
+        "isInstall" : false,
         "comments": [
             {
                 "name": "Usuario31",
@@ -343,6 +359,7 @@
         "price": 0.99,
         "developer": "developer 17",
         "category": 1,
+        "isInstall" : false,
         "comments": [
             {
                 "name": "Usuario33",
@@ -364,6 +381,7 @@
         "price": 1.99,
         "developer": "developer 18",
         "category": 3,
+        "isInstall" : false,
         "comments": [
             {
                 "name": "Usuario35",
@@ -385,6 +403,7 @@
         "price": 0.99,
         "developer": "developer 19",
         "category": 2,
+        "isInstall" : false,
         "comments": [
             {
                 "name": "Usuario37",
@@ -406,6 +425,7 @@
         "price": 2.99,
         "developer": "developer 20",
         "category": 5,
+        "isInstall" : true,
         "comments": [
             {
                 "name": "Usuario39",

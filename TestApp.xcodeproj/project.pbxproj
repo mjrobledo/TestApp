@@ -30,6 +30,7 @@
 		946B987F2A6912BC00A10116 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 946B987E2A6912BC00A10116 /* Data.json */; };
 		946B98832A69C89D00A10116 /* CellComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946B98812A69C89D00A10116 /* CellComment.swift */; };
 		946B98842A69C89D00A10116 /* CellComment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946B98822A69C89D00A10116 /* CellComment.xib */; };
+		946B98862A69E06200A10116 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946B98852A69E06200A10116 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		946B987E2A6912BC00A10116 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 		946B98812A69C89D00A10116 /* CellComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellComment.swift; sourceTree = "<group>"; };
 		946B98822A69C89D00A10116 /* CellComment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellComment.xib; sourceTree = "<group>"; };
+		946B98852A69E06200A10116 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			children = (
 				946B986B2A68EDA800A10116 /* ViewControllerExtension.swift */,
 				946B98762A69073200A10116 /* UiviewExtension.swift */,
+				946B98852A69E06200A10116 /* Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				946B98422A68AAAC00A10116 /* AppDelegate.swift in Sources */,
 				946B986F2A68F4CB00A10116 /* FilterVC.swift in Sources */,
 				946B986A2A68ECEC00A10116 /* DetailPresenter.swift in Sources */,
+				946B98862A69E06200A10116 /* Utils.swift in Sources */,
 				946B98672A68ECE000A10116 /* DetailView.swift in Sources */,
 				946B98612A68ECB200A10116 /* HomeView.swift in Sources */,
 				946B98832A69C89D00A10116 /* CellComment.swift in Sources */,

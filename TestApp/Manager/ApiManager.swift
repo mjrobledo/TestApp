@@ -35,5 +35,5 @@ class LocalManager {
             print("Error al cargar y decodificar el JSON: \(error)")
             return []
         }
-    }
+    }    
 }

@@ -45,7 +45,7 @@ class HomeView: UIViewController {
     }
     
     @objc func filterView() {
-        self.present(FilterVC.openFilterVC(), animated: true)
+        self.present(FilterVC.openFilterVC(delegate: self), animated: true)
     }
 }
 
@@ -56,6 +56,10 @@ extension HomeView: HomeViewProtocol {
     
     func reloadApps() {
         self.collCategories.reloadData()
+    }
+    
+    func addTitleView(_ title: String) {
+        self.title = title
     }
 }
 
@@ -90,3 +94,8 @@ extension HomeView: UICollectionViewDataSource, UICollectionViewDelegate, UIColl
     }
 }
 
+extension HomeView: FilterProtocol {
+    func selectedCategoryId(id: Int) {
+        presenter.loadInfoByIdCategory(id)
+    }
+}

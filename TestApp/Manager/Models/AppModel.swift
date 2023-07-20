@@ -25,7 +25,7 @@ struct AppModel : Codable {
     let developer : String?
     let category : Int?
     let comments : [Comments]?
-
+    var isInstall: Bool?
     
     var priceDescription: String {
         guard let price = price else {

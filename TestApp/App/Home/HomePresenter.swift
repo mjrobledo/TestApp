@@ -23,11 +23,25 @@ class HomePresenter : HomePreseterProtocol {
     }
     
     func getListApps() {
+        self.delegate?.addTitleView("Amazon Store")
         manager.getListApps { listApps in
             if listApps.isEmpty {
                 return
             }
             self.items = listApps
+            self.delegate?.reloadApps()
+        }
+    }
+    
+    func loadInfoByIdCategory(_ id: Int) {
+        if id == -1 {
+            self.getListApps()
+            return
+        }
+        
+        self.delegate?.addTitleView("Categoría \(id)")
+        manager.getListApps { listApp in
+            self.items = listApp.filter({ $0.category == id })
             self.delegate?.reloadApps()
         }
     }
@@ -38,10 +52,11 @@ class HomePresenter : HomePreseterProtocol {
 protocol HomeViewProtocol : AnyObject {
     func showError(_ message: String)
     func reloadApps()
+    func addTitleView(_ title: String)
 }
 
 protocol HomePreseterProtocol {
     func getListApps()
     var items: [AppModel] { get set }
+    func loadInfoByIdCategory(_ id: Int)
 }
-

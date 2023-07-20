@@ -11,19 +11,7 @@
 
 
 import Foundation
-
-
-protocol DetailViewProtocol : AnyObject {
-    func showError(_ message: String)
-    func loadInfoView()
-  
-}
-
-protocol DetailPresenterProtocol {
-    var item : AppModel { get }
-}
-
-
+ 
 class DetailPresenter: DetailPresenterProtocol {
     //var delegate: DetailViewProtocol?
     var item: AppModel
@@ -37,3 +25,16 @@ class DetailPresenter: DetailPresenterProtocol {
         })        
     }
 }
+
+// MARK: - Protocols
+protocol DetailViewProtocol : AnyObject {
+    func showError(_ message: String)
+    func loadInfoView()
+  
+}
+
+protocol DetailPresenterProtocol {
+    var item : AppModel { get }
+   
+}
+

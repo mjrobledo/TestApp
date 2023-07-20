@@ -29,7 +29,7 @@ class DetailView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.configTableView()
-        self.addInstallButton()
+        
     }
     
     private func configTableView() {
@@ -72,14 +72,19 @@ extension DetailView: DetailViewProtocol {
         viewRating.fillNumRating(presenter.item.rating ?? 0, applyColor: true)
         
         if !presenter.item.imageHeader.isEmpty  {
+            imgHeader.contentMode = .scaleAspectFit
+            imgHeader.image = UIImage(named: "ic_notAvailable")
+            
             if let image: UIImage = UIImage(named: presenter.item.imageHeader) {
                 imgHeader.image = image
                 imgHeader.contentMode = .scaleToFill
-                return
             }
-            imgHeader.contentMode = .scaleAspectFit
-            imgHeader.image = UIImage(named: "ic_notAvailable")
         }
+        
+        if !(presenter.item.isInstall ?? false) {
+            self.addInstallButton()
+        }
+        
         tblComments.reloadData()
     }
 }
